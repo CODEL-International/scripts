@@ -1,0 +1,15 @@
+      public MemoryItem !!NAME!!;
+
+      !!NAME!!.description = nameof(!!NAME!!);
+      !!NAME!!.codelLocation = 0x!!CODELOFFSET!!;
+      !!NAME!!.modbusRegister = !!OFFSET!!;
+      !!NAME!!.byteOffset = 0x!!BYTEOFFSET!!;
+      !!NAME!!.DataType = MemoryItemType.!!TYPE!!;
+      !!NAME!!.numBytes = !!NUMBYTES!!;
+      !!NAME!!.numRegisters =!!NUMREGS!!;
+      !!NAME!!.multiplier = !!MULTIPLIER!!;
+      !!NAME!!.minValue = !!MIN!!;
+      !!NAME!!.maxValue = !!MAX!!;
+      !!NAME!!.units = "";
+      !!NAME!!.currentConnectionType = Instrument_Type;
+      !!NAME!!.absoluteaddress = (int)BASEADDRESS + !!NAME!!.byteOffset;
